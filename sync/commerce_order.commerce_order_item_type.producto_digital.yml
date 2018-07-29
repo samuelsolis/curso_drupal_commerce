@@ -1,0 +1,15 @@
+uuid: df13edf1-8c8f-439b-b5cd-12c93ef3745a
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: digital_goods
+label: 'Producto digital'
+id: producto_digital
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false

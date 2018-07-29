@@ -1,0 +1,9 @@
+uuid: 2ced6662-fce9-4d87-bdae-ee1c26da6ea0
+langcode: es
+status: true
+dependencies: {  }
+name: Tecnologías
+vid: tecnologias
+description: 'Tecnologías a las que puede estar referida un curso'
+hierarchy: 0
+weight: 0

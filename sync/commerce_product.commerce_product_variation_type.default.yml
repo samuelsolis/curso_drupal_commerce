@@ -1,0 +1,12 @@
+uuid: 982be928-1b95-4733-86e4-187f82195360
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3vA4FKQ1Qu8B1R8UdGPnmMfJrYO6Y6uMqeNgDgXxods
+id: default
+label: 'Curso presencial'
+orderItemType: servicio
+generateTitle: true
+traits: {  }
+locked: false

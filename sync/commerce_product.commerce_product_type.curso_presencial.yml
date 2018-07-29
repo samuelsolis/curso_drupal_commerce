@@ -1,0 +1,11 @@
+uuid: a75846a7-4c5c-4782-bccb-afb2e7cfc984
+langcode: es
+status: true
+dependencies: {  }
+id: curso_presencial
+label: 'Curso presencial'
+description: 'Curso presencial'
+variationType: default
+injectVariationFields: true
+traits: {  }
+locked: false

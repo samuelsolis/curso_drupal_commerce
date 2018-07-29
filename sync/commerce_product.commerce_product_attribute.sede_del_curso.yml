@@ -1,0 +1,7 @@
+uuid: 9a34a66d-2c60-4436-8bd0-1510b6819fe1
+langcode: es
+status: true
+dependencies: {  }
+id: sede_del_curso
+label: 'Sede del curso'
+elementType: select

@@ -1,0 +1,11 @@
+uuid: 02ea048d-ab56-4103-9c0c-47221ddc40f9
+langcode: es
+status: true
+dependencies: {  }
+id: curso_online
+label: 'Curso online'
+description: 'Curso online'
+variationType: curso_online
+injectVariationFields: true
+traits: {  }
+locked: false

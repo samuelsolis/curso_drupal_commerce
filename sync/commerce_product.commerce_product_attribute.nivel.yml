@@ -1,0 +1,7 @@
+uuid: d498e9c8-202b-4924-9f08-97a3e70630c1
+langcode: es
+status: true
+dependencies: {  }
+id: nivel
+label: Nivel
+elementType: select

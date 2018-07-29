@@ -1,0 +1,11 @@
+uuid: 4b261f5d-a7f6-478a-aed2-dbe90615cfc4
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.curso_online
+id: commerce_product.curso_online
+target_entity_type_id: commerce_product
+target_bundle: curso_online
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,29 @@
+uuid: cece4f26-da7d-488e-bcab-50ab2f838e3d
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.curso_presencial
+    - field.storage.commerce_product.field_tecnologias_del_curso
+    - taxonomy.vocabulary.tecnologias
+id: commerce_product.curso_presencial.field_tecnologias_del_curso
+field_name: field_tecnologias_del_curso
+entity_type: commerce_product
+bundle: curso_presencial
+label: 'Tecnologías del curso'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tecnologias: tecnologias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 5611e3f5-7b1c-45a7-9a4b-3a0fb0be95bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.curso_presencial
+    - field.storage.commerce_product.stores
+id: commerce_product.curso_presencial.stores
+field_name: stores
+entity_type: commerce_product
+bundle: curso_presencial
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,17 @@
+uuid: 70d7e038-305a-48c5-8652-973fe7cd9142
+langcode: es
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+_core:
+  default_config_hash: PZl4AQDUouSVwavb0FNRlcbJx924n5FtCq8l73AMj5g
+id: customer
+label: Cliente
+registration: false
+multiple: true
+roles: {  }
+weight: 0
+use_revisions: false
+description: null

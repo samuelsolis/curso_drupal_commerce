@@ -1,0 +1,11 @@
+uuid: 334c9f09-0f4d-468d-9d6f-7c2eccb78e81
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tecnologias
+id: taxonomy_term.tecnologias
+target_entity_type_id: taxonomy_term
+target_bundle: tecnologias
+default_langcode: site_default
+language_alterable: false

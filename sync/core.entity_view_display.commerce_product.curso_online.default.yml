@@ -1,0 +1,63 @@
+uuid: 41dd8e10-ef39-47fc-aee6-ee93f9e54fe2
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.curso_online
+    - field.field.commerce_product.curso_online.body
+    - field.field.commerce_product.curso_online.field_duracion
+    - field.field.commerce_product.curso_online.field_tecnologias_del_curso
+    - field.field.commerce_product.curso_online.stores
+    - field.field.commerce_product.curso_online.variations
+  module:
+    - commerce_product
+    - text
+id: commerce_product.curso_online.default
+targetEntityType: commerce_product
+bundle: curso_online
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_duracion:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_tecnologias_del_curso:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 10
+    label: above
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  langcode: true
+  stores: true
+  uid: true

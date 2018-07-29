@@ -1,0 +1,19 @@
+uuid: ab6378c9-c53a-4e0b-b969-64a11b2a3acd
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product.body
+field_name: body
+entity_type: commerce_product
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

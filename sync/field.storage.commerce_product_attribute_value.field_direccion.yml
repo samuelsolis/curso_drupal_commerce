@@ -1,0 +1,19 @@
+uuid: 7a56021b-9d7c-4de5-9321-2791b535f7b0
+langcode: es
+status: true
+dependencies:
+  module:
+    - address
+    - commerce_product
+id: commerce_product_attribute_value.field_direccion
+field_name: field_direccion
+entity_type: commerce_product_attribute_value
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

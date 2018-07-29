@@ -1,0 +1,24 @@
+uuid: 90890bbc-4695-44c5-8f1a-e367c10b42ac
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.sede_del_curso
+    - commerce_product.commerce_product_variation_type.default
+    - field.storage.commerce_product_variation.attribute_sede_del_curso
+id: commerce_product_variation.default.attribute_sede_del_curso
+field_name: attribute_sede_del_curso
+entity_type: commerce_product_variation
+bundle: default
+label: 'Sede del curso'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      - sede_del_curso
+field_type: entity_reference

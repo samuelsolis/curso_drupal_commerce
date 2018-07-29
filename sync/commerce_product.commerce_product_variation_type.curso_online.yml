@@ -1,0 +1,10 @@
+uuid: 4e06f13e-e4f1-4893-835c-1101c613220c
+langcode: es
+status: true
+dependencies: {  }
+id: curso_online
+label: 'Curso online'
+orderItemType: producto_digital
+generateTitle: false
+traits: {  }
+locked: false

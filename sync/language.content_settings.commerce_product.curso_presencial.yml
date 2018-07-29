@@ -1,0 +1,11 @@
+uuid: 7cc1f6c9-be44-4d9b-aad3-86dea1562a18
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.curso_presencial
+id: commerce_product.curso_presencial
+target_entity_type_id: commerce_product
+target_bundle: curso_presencial
+default_langcode: site_default
+language_alterable: false

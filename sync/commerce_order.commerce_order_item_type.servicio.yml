@@ -1,0 +1,15 @@
+uuid: 90537486-b285-4c25-9ff0-04baf5f0e75c
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: services
+label: Servicio
+id: servicio
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false

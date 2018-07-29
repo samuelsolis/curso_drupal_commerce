@@ -797,3 +797,4 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'commerce_base';
 $config_directories['sync'] = 'sites/default/files/config_D0D-TrlCcja4z8w1ffFTWtBq5lf6GOojroL1LTjaVGkODiOqQoVF2EuZDC2FFN52_hDDHpZKQg/sync';
+$config_directories['sync'] = '../sync/';

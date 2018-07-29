@@ -1,0 +1,14 @@
+uuid: 4fa69c1f-0bab-4b64-9691-85c6c25fe0cf
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Comentarios sobre el sitio web'
+recipients:
+  - ss@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null
