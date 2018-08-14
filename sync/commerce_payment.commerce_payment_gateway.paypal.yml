@@ -1,0 +1,21 @@
+uuid: 20c95528-1b12-4bae-83e0-1a107948a52e
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal
+label: Paypal
+weight: null
+plugin: paypal_payflow
+configuration:
+  partner: Mitienda
+  vendor: mitienda
+  user: miusuario
+  password: ''
+  display_label: 'Credit Card'
+  mode: live
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

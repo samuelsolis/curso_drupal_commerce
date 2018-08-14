@@ -9037,5 +9037,106 @@
             "issues": "https://drupal.org/project/issues/coffee",
             "irc": "irc://irc.freenode.org/drupal-contribute"
         }
+    },
+    {
+        "name": "commerceredsys/sermepa",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CommerceRedsys/sermepa.git",
+            "reference": "da205f29d356a1e6e5f83d423c845afef3fef7fd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CommerceRedsys/sermepa/zipball/da205f29d356a1e6e5f83d423c845afef3fef7fd",
+            "reference": "da205f29d356a1e6e5f83d423c845afef3fef7fd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-03-26T16:19:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "CommerceRedsys\\Payment\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Pedro Cambra",
+                "homepage": "https://www.drupal.org/u/pcambra"
+            },
+            {
+                "name": "Manuel Egío",
+                "homepage": "https://www.drupal.org/u/facine"
+            }
+        ],
+        "description": "Payment gateway library for spanish banks that use Sermepa/Redsýs systems.",
+        "homepage": "https://github.com/CommerceRedsys/sermepa",
+        "keywords": [
+            "e-commerce",
+            "gateway",
+            "payment",
+            "redsys",
+            "sermepa"
+        ]
+    },
+    {
+        "name": "drupal/commerce_sermepa",
+        "version": "dev-2.x",
+        "version_normalized": "dev-2.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/commerce_sermepa",
+            "reference": "caf861ea08f399e1b7a9ff1d28142feb12bb89df"
+        },
+        "require": {
+            "commerceredsys/sermepa": "^1.0",
+            "drupal/commerce": "^2.0",
+            "drupal/commerce_payment": "*",
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.x-dev",
+                "datestamp": "1511554084",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Pedro Cambra",
+                "homepage": "https://www.drupal.org/u/pcambra"
+            },
+            {
+                "name": "Manuel Egío",
+                "homepage": "https://www.drupal.org/u/facine"
+            }
+        ],
+        "description": "Commerce Sermepa is an off-site payment gateway.",
+        "homepage": "http://drupal.org/project/commerce_sermepa",
+        "support": {
+            "source": "https://cgit.drupalcode.org/commerce_sermepa",
+            "issues": "https://www.drupal.org/project/issues/commerce_sermepa"
+        }
     }
 ]

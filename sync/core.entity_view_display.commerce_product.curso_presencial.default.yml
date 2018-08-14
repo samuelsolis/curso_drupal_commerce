@@ -44,7 +44,7 @@ content:
     weight: 10
     label: above
     settings:
-      combine: true
+      combine: false
     third_party_settings: {  }
     region: content
 hidden:

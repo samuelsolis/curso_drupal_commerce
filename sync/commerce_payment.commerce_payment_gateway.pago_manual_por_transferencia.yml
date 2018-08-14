@@ -1,0 +1,18 @@
+uuid: 208bf24e-32de-46d4-8cd0-01efb83dcc8c
+langcode: es
+status: true
+dependencies: {  }
+id: pago_manual_por_transferencia
+label: 'Pago manual por transferencia'
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: 'Pague por transferencia'
+    format: plain_text
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

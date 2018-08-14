@@ -1,0 +1,11 @@
+uuid: b1adbac5-28af-44d6-b7e9-092819c0e93f
+langcode: es
+status: true
+dependencies: {  }
+id: producto_fisico
+label: 'Producto físico'
+description: 'Producto físico, enviable'
+variationType: producto_fisico
+injectVariationFields: true
+traits: {  }
+locked: false

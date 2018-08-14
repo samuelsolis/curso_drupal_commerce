@@ -1,0 +1,11 @@
+uuid: 05d890ad-001a-4c94-9b2e-f9cf6241a52c
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.producto_fisico
+id: commerce_product.producto_fisico
+target_entity_type_id: commerce_product
+target_bundle: producto_fisico
+default_langcode: site_default
+language_alterable: false

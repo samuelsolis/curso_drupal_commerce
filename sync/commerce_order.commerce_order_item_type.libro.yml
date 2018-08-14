@@ -1,0 +1,15 @@
+uuid: 399eb6fe-b544-4ad7-9fc3-fa3fe1c0049d
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: physical_goods
+label: Libro
+id: libro
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false

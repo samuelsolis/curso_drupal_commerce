@@ -15,9 +15,13 @@ module:
   commerce_log: 0
   commerce_order: 0
   commerce_payment: 0
+  commerce_paypal: 0
+  commerce_postcode_delivery: 0
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
+  commerce_sermepa: 0
+  commerce_shipping: 0
   commerce_store: 0
   commerce_tax: 0
   config: 0
@@ -46,6 +50,7 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  physical: 0
   profile: 0
   quickedit: 0
   rdf: 0

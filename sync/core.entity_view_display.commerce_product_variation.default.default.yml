@@ -7,7 +7,7 @@ dependencies:
     - field.field.commerce_product_variation.default.attribute_nivel
     - field.field.commerce_product_variation.default.attribute_sede_del_curso
   module:
-    - commerce_price
+    - commerce_order
 id: commerce_product_variation.default.default
 targetEntityType: commerce_product_variation
 bundle: default
@@ -15,12 +15,17 @@ mode: default
 content:
   price:
     label: above
-    type: commerce_price_default
+    type: commerce_price_calculated
     weight: 0
     region: content
     settings:
-      strip_trailing_zeroes: false
       currency_display: symbol
+      adjustment_types:
+        fee: fee
+        tax: tax
+        promotion: '0'
+        shipping: '0'
+      strip_trailing_zeroes: false
     third_party_settings: {  }
 hidden:
   attribute_nivel: true

@@ -1,0 +1,30 @@
+uuid: fa5bc668-0cba-4f6f-9d99-1e48d4e5597f
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.curso_online
+    - core.entity_view_mode.commerce_product_variation.summary
+    - field.field.commerce_product_variation.curso_online.attribute_nivel
+  module:
+    - commerce_price
+id: commerce_product_variation.curso_online.summary
+targetEntityType: commerce_product_variation
+bundle: curso_online
+mode: summary
+content:
+  price:
+    label: above
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  attribute_nivel: true
+  langcode: true
+  product_id: true
+  sku: true
+  title: true

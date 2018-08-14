@@ -1,0 +1,36 @@
+uuid: 63286964-9443-4fe3-a9ac-47cb90462bcd
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.producto_fisico
+    - field.field.commerce_product_variation.producto_fisico.dimensions
+    - field.field.commerce_product_variation.producto_fisico.weight
+  module:
+    - commerce_order
+id: commerce_product_variation.producto_fisico.default
+targetEntityType: commerce_product_variation
+bundle: producto_fisico
+mode: default
+content:
+  price:
+    label: above
+    type: commerce_price_calculated
+    weight: 0
+    region: content
+    settings:
+      currency_display: symbol
+      adjustment_types:
+        fee: fee
+        tax: tax
+        promotion: '0'
+        shipping: '0'
+      strip_trailing_zeroes: false
+    third_party_settings: {  }
+hidden:
+  dimensions: true
+  langcode: true
+  product_id: true
+  sku: true
+  title: true
+  weight: true

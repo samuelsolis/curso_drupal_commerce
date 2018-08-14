@@ -147,6 +147,7 @@ class ComposerStaticInit4ecc5818a406ce968529169ed6829f59
         array (
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
+            'CommerceRedsys\\Payment\\' => 23,
             'CommerceGuys\\Intl\\' => 18,
             'CommerceGuys\\Addressing\\' => 24,
         ),
@@ -448,6 +449,10 @@ class ComposerStaticInit4ecc5818a406ce968529169ed6829f59
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'CommerceRedsys\\Payment\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/commerceredsys/sermepa/src',
         ),
         'CommerceGuys\\Intl\\' => 
         array (

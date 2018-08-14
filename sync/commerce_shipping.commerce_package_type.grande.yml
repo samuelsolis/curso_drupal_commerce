@@ -1,0 +1,14 @@
+uuid: c5dbba64-eeda-42db-a6b1-c9519c3d4cc1
+langcode: es
+status: true
+dependencies: {  }
+id: grande
+label: Grande
+dimensions:
+  length: '1'
+  width: '1'
+  height: '1'
+  unit: m
+weight:
+  number: '200'
+  unit: g

@@ -1,0 +1,14 @@
+uuid: af47abf4-021d-49fa-badc-43a17c37a3e5
+langcode: es
+status: true
+dependencies: {  }
+id: pequeno
+label: Pequeño
+dimensions:
+  length: '0.5'
+  width: '0.5'
+  height: '0.5'
+  unit: m
+weight:
+  number: '100'
+  unit: g

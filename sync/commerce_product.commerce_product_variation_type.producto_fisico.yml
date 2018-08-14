@@ -1,0 +1,12 @@
+uuid: 1b9964b3-edba-4e40-a01e-a32b15cb2bdf
+langcode: es
+status: true
+dependencies: {  }
+id: producto_fisico
+label: 'Producto físico'
+orderItemType: libro
+generateTitle: false
+traits:
+  - purchasable_entity_dimensions
+  - purchasable_entity_shippable
+locked: false

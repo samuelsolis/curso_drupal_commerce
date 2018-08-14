@@ -1,0 +1,24 @@
+uuid: 821d995d-93f9-4c4b-a8b5-d20bc1a80f4d
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.producto_fisico
+    - commerce_product.commerce_product_variation_type.producto_fisico
+    - field.storage.commerce_product.variations
+id: commerce_product.producto_fisico.variations
+field_name: variations
+entity_type: commerce_product
+bundle: producto_fisico
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - producto_fisico
+field_type: entity_reference

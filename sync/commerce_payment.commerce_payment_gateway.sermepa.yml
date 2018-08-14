@@ -1,0 +1,30 @@
+uuid: 026bc6c6-6f75-4bc5-8bd7-e88a5412fe98
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_sermepa
+id: sermepa
+label: Sermepa
+weight: null
+plugin: commerce_sermepa
+configuration:
+  merchant_name: Test
+  merchant_code: test
+  merchant_group: ''
+  merchant_password: test
+  merchant_terminal: tes
+  merchant_paymethods:
+    - C
+  merchant_consumer_language: '001'
+  currency: '978'
+  transaction_type: '0'
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: 'Tarjeta de crédito (Sermepa)'
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 id: curso_online
 label: 'Curso online'
-orderItemType: producto_digital
+orderItemType: default
 generateTitle: false
 traits: {  }
 locked: false
